@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PaleoSpinnerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PaleoSpinnerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		512B01AC12610E8C0018B6CF /* yum.txt in Resources */ = {isa = PBXBuildFile; fileRef = 512B01AB12610E8C0018B6CF /* yum.txt */; };
+		512B01B61261102C0018B6CF /* yuck.txt in Resources */ = {isa = PBXBuildFile; fileRef = 512B01B51261102C0018B6CF /* yuck.txt */; };
+		512B021D12611ADD0018B6CF /* YumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512B021B12611ADD0018B6CF /* YumTableViewController.m */; };
+		512B021E12611ADD0018B6CF /* YumTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512B021C12611ADD0018B6CF /* YumTableViewController.xib */; };
+		512B0292126121BB0018B6CF /* YuckTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512B0290126121BB0018B6CF /* YuckTableViewController.m */; };
+		512B0293126121BB0018B6CF /* YuckTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512B0291126121BB0018B6CF /* YuckTableViewController.xib */; };
+		5192783612628D380072AD8F /* yuck.png in Resources */ = {isa = PBXBuildFile; fileRef = 5192783312628D380072AD8F /* yuck.png */; };
+		5192783712628D380072AD8F /* yum.png in Resources */ = {isa = PBXBuildFile; fileRef = 5192783412628D380072AD8F /* yum.png */; };
+		5192783812628D380072AD8F /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 5192783512628D380072AD8F /* food.png */; };
+		5192784B1262902D0072AD8F /* spin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5192784A1262902D0072AD8F /* spin.png */; };
+		51A1B6441263DFFD00E38480 /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A1B6411263DFFD00E38480 /* icon_57.png */; };
+		51A1B6451263DFFD00E38480 /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A1B6421263DFFD00E38480 /* icon_114.png */; };
+		51A1B67F1263E5AA00E38480 /* IngredientsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A1B67D1263E5AA00E38480 /* IngredientsTableViewController.m */; };
+		51A1B6801263E5AA00E38480 /* IngredientsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A1B67E1263E5AA00E38480 /* IngredientsTableViewController.xib */; };
+		51A1B68B1263E76900E38480 /* ingredients.png in Resources */ = {isa = PBXBuildFile; fileRef = 51A1B68A1263E76900E38480 /* ingredients.png */; };
+		51A1B69B1263E80900E38480 /* IngredientsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A1B6991263E80900E38480 /* IngredientsListTableViewController.m */; };
+		51A1B69C1263E80900E38480 /* IngredientsListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A1B69A1263E80900E38480 /* IngredientsListTableViewController.xib */; };
+		51A1B7611263F97E00E38480 /* AddIngredientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A1B75F1263F97E00E38480 /* AddIngredientViewController.m */; };
+		51A1B7621263F97E00E38480 /* AddIngredientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A1B7601263F97E00E38480 /* AddIngredientViewController.xib */; };
+		51DA8377125928220003FE8D /* SpinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA8375125928220003FE8D /* SpinnerViewController.m */; };
+		51DA8378125928220003FE8D /* SpinnerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA8376125928220003FE8D /* SpinnerViewController.xib */; };
+		51DA83A312592F320003FE8D /* protein.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51DA83A212592F320003FE8D /* protein.txt */; };
+		51DA83A612592F8D0003FE8D /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA83A512592F8D0003FE8D /* Ingredient.m */; };
+		51DA83D6125935450003FE8D /* carb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51DA83D5125935450003FE8D /* carb.txt */; };
+		51DA83D81259357D0003FE8D /* flavor.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51DA83D71259357D0003FE8D /* flavor.txt */; };
+		51DA83DA125935B00003FE8D /* fat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51DA83D9125935B00003FE8D /* fat.txt */; };
+		51DA83E7125939440003FE8D /* unlocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DA83E5125939440003FE8D /* unlocked.png */; };
+		51DA83E8125939440003FE8D /* locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DA83E6125939440003FE8D /* locked.png */; };
+		51DA83FA125953C80003FE8D /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA83F8125953C80003FE8D /* ResultsViewController.m */; };
+		51DA83FB125953C80003FE8D /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA83F9125953C80003FE8D /* ResultsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PaleoSpinnerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaleoSpinnerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PaleoSpinnerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaleoSpinnerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* PaleoSpinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaleoSpinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* PaleoSpinner_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaleoSpinner_Prefix.pch; sourceTree = "<group>"; };
+		512B01AB12610E8C0018B6CF /* yum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yum.txt; sourceTree = "<group>"; };
+		512B01B51261102C0018B6CF /* yuck.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yuck.txt; sourceTree = "<group>"; };
+		512B021A12611ADD0018B6CF /* YumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YumTableViewController.h; sourceTree = "<group>"; };
+		512B021B12611ADD0018B6CF /* YumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YumTableViewController.m; sourceTree = "<group>"; };
+		512B021C12611ADD0018B6CF /* YumTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YumTableViewController.xib; sourceTree = "<group>"; };
+		512B028F126121BB0018B6CF /* YuckTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YuckTableViewController.h; sourceTree = "<group>"; };
+		512B0290126121BB0018B6CF /* YuckTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YuckTableViewController.m; sourceTree = "<group>"; };
+		512B0291126121BB0018B6CF /* YuckTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YuckTableViewController.xib; sourceTree = "<group>"; };
+		5192783312628D380072AD8F /* yuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuck.png; sourceTree = "<group>"; };
+		5192783412628D380072AD8F /* yum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yum.png; sourceTree = "<group>"; };
+		5192783512628D380072AD8F /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		5192784A1262902D0072AD8F /* spin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spin.png; sourceTree = "<group>"; };
+		51A1B6411263DFFD00E38480 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
+		51A1B6421263DFFD00E38480 /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
+		51A1B67C1263E5AA00E38480 /* IngredientsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsTableViewController.h; sourceTree = "<group>"; };
+		51A1B67D1263E5AA00E38480 /* IngredientsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsTableViewController.m; sourceTree = "<group>"; };
+		51A1B67E1263E5AA00E38480 /* IngredientsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientsTableViewController.xib; sourceTree = "<group>"; };
+		51A1B68A1263E76900E38480 /* ingredients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ingredients.png; sourceTree = "<group>"; };
+		51A1B6981263E80900E38480 /* IngredientsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsListTableViewController.h; sourceTree = "<group>"; };
+		51A1B6991263E80900E38480 /* IngredientsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsListTableViewController.m; sourceTree = "<group>"; };
+		51A1B69A1263E80900E38480 /* IngredientsListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientsListTableViewController.xib; sourceTree = "<group>"; };
+		51A1B75E1263F97E00E38480 /* AddIngredientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddIngredientViewController.h; sourceTree = "<group>"; };
+		51A1B75F1263F97E00E38480 /* AddIngredientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddIngredientViewController.m; sourceTree = "<group>"; };
+		51A1B7601263F97E00E38480 /* AddIngredientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddIngredientViewController.xib; sourceTree = "<group>"; };
+		51DA8374125928220003FE8D /* SpinnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinnerViewController.h; sourceTree = "<group>"; };
+		51DA8375125928220003FE8D /* SpinnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerViewController.m; sourceTree = "<group>"; };
+		51DA8376125928220003FE8D /* SpinnerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpinnerViewController.xib; sourceTree = "<group>"; };
+		51DA83A212592F320003FE8D /* protein.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = protein.txt; sourceTree = "<group>"; };
+		51DA83A412592F8D0003FE8D /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		51DA83A512592F8D0003FE8D /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		51DA83D5125935450003FE8D /* carb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = carb.txt; sourceTree = "<group>"; };
+		51DA83D71259357D0003FE8D /* flavor.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = flavor.txt; sourceTree = "<group>"; };
+		51DA83D9125935B00003FE8D /* fat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fat.txt; sourceTree = "<group>"; };
+		51DA83E5125939440003FE8D /* unlocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlocked.png; sourceTree = "<group>"; };
+		51DA83E6125939440003FE8D /* locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locked.png; sourceTree = "<group>"; };
+		51DA83F7125953C80003FE8D /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		51DA83F8125953C80003FE8D /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		51DA83F9125953C80003FE8D /* ResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* PaleoSpinner-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PaleoSpinner-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* PaleoSpinnerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PaleoSpinnerAppDelegate.m */,
+				51DA8374125928220003FE8D /* SpinnerViewController.h */,
+				51DA8375125928220003FE8D /* SpinnerViewController.m */,
+				51DA8376125928220003FE8D /* SpinnerViewController.xib */,
+				51DA83A412592F8D0003FE8D /* Ingredient.h */,
+				51DA83A512592F8D0003FE8D /* Ingredient.m */,
+				51DA83F7125953C80003FE8D /* ResultsViewController.h */,
+				51DA83F8125953C80003FE8D /* ResultsViewController.m */,
+				51DA83F9125953C80003FE8D /* ResultsViewController.xib */,
+				512B021A12611ADD0018B6CF /* YumTableViewController.h */,
+				512B021B12611ADD0018B6CF /* YumTableViewController.m */,
+				512B021C12611ADD0018B6CF /* YumTableViewController.xib */,
+				512B028F126121BB0018B6CF /* YuckTableViewController.h */,
+				512B0290126121BB0018B6CF /* YuckTableViewController.m */,
+				512B0291126121BB0018B6CF /* YuckTableViewController.xib */,
+				51A1B67C1263E5AA00E38480 /* IngredientsTableViewController.h */,
+				51A1B67D1263E5AA00E38480 /* IngredientsTableViewController.m */,
+				51A1B67E1263E5AA00E38480 /* IngredientsTableViewController.xib */,
+				51A1B6981263E80900E38480 /* IngredientsListTableViewController.h */,
+				51A1B6991263E80900E38480 /* IngredientsListTableViewController.m */,
+				51A1B69A1263E80900E38480 /* IngredientsListTableViewController.xib */,
+				51A1B75E1263F97E00E38480 /* AddIngredientViewController.h */,
+				51A1B75F1263F97E00E38480 /* AddIngredientViewController.m */,
+				51A1B7601263F97E00E38480 /* AddIngredientViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* PaleoSpinner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PaleoSpinner_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51A1B68A1263E76900E38480 /* ingredients.png */,
+				51A1B6411263DFFD00E38480 /* icon_57.png */,
+				51A1B6421263DFFD00E38480 /* icon_114.png */,
+				5192784A1262902D0072AD8F /* spin.png */,
+				5192783312628D380072AD8F /* yuck.png */,
+				5192783412628D380072AD8F /* yum.png */,
+				5192783512628D380072AD8F /* food.png */,
+				51DA83E5125939440003FE8D /* unlocked.png */,
+				51DA83E6125939440003FE8D /* locked.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* PaleoSpinner-Info.plist */,
+				51DA83A212592F320003FE8D /* protein.txt */,
+				51DA83D5125935450003FE8D /* carb.txt */,
+				51DA83D71259357D0003FE8D /* flavor.txt */,
+				51DA83D9125935B00003FE8D /* fat.txt */,
+				512B01AB12610E8C0018B6CF /* yum.txt */,
+				512B01B51261102C0018B6CF /* yuck.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PaleoSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PaleoSpinner" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaleoSpinner;
+			productName = PaleoSpinner;
+			productReference = 1D6058910D05DD3D006BFB54 /* PaleoSpinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PaleoSpinner" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PaleoSpinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				51DA8378125928220003FE8D /* SpinnerViewController.xib in Resources */,
+				51DA83A312592F320003FE8D /* protein.txt in Resources */,
+				51DA83D6125935450003FE8D /* carb.txt in Resources */,
+				51DA83D81259357D0003FE8D /* flavor.txt in Resources */,
+				51DA83DA125935B00003FE8D /* fat.txt in Resources */,
+				51DA83E7125939440003FE8D /* unlocked.png in Resources */,
+				51DA83E8125939440003FE8D /* locked.png in Resources */,
+				51DA83FB125953C80003FE8D /* ResultsViewController.xib in Resources */,
+				512B01AC12610E8C0018B6CF /* yum.txt in Resources */,
+				512B01B61261102C0018B6CF /* yuck.txt in Resources */,
+				512B021E12611ADD0018B6CF /* YumTableViewController.xib in Resources */,
+				512B0293126121BB0018B6CF /* YuckTableViewController.xib in Resources */,
+				5192783612628D380072AD8F /* yuck.png in Resources */,
+				5192783712628D380072AD8F /* yum.png in Resources */,
+				5192783812628D380072AD8F /* food.png in Resources */,
+				5192784B1262902D0072AD8F /* spin.png in Resources */,
+				51A1B6441263DFFD00E38480 /* icon_57.png in Resources */,
+				51A1B6451263DFFD00E38480 /* icon_114.png in Resources */,
+				51A1B6801263E5AA00E38480 /* IngredientsTableViewController.xib in Resources */,
+				51A1B68B1263E76900E38480 /* ingredients.png in Resources */,
+				51A1B69C1263E80900E38480 /* IngredientsListTableViewController.xib in Resources */,
+				51A1B7621263F97E00E38480 /* AddIngredientViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PaleoSpinnerAppDelegate.m in Sources */,
+				51DA8377125928220003FE8D /* SpinnerViewController.m in Sources */,
+				51DA83A612592F8D0003FE8D /* Ingredient.m in Sources */,
+				51DA83FA125953C80003FE8D /* ResultsViewController.m in Sources */,
+				512B021D12611ADD0018B6CF /* YumTableViewController.m in Sources */,
+				512B0292126121BB0018B6CF /* YuckTableViewController.m in Sources */,
+				51A1B67F1263E5AA00E38480 /* IngredientsTableViewController.m in Sources */,
+				51A1B69B1263E80900E38480 /* IngredientsListTableViewController.m in Sources */,
+				51A1B7611263F97E00E38480 /* AddIngredientViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PaleoSpinner_Prefix.pch;
+				INFOPLIST_FILE = "PaleoSpinner-Info.plist";
+				PRODUCT_NAME = PaleoSpinner;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PaleoSpinner_Prefix.pch;
+				INFOPLIST_FILE = "PaleoSpinner-Info.plist";
+				PRODUCT_NAME = PaleoSpinner;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5199E621126540D400EC2640 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joseph Flasher";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6C6EA0C3-B3AB-495A-93F4-5BBE6F592C59";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Distribution;
+		};
+		5199E622126540D400EC2640 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PaleoSpinner_Prefix.pch;
+				INFOPLIST_FILE = "PaleoSpinner-Info.plist";
+				PRODUCT_NAME = PaleoSpinner;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph Flasher (3Q654GUMDM)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5260CB2-74CA-4B90-A3E6-874AD95DDA45";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PaleoSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				5199E622126540D400EC2640 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PaleoSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				5199E621126540D400EC2640 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

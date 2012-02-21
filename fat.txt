@@ -1,0 +1,5 @@
+Coconut oil,1,fat
+Butter,1,fat
+Bacon fat,1,fat
+Olive oil,1,fat
+Walnut oil,1,fat

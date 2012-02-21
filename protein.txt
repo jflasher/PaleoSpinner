@@ -1,0 +1,25 @@
+Chicken breast,1,protein
+Ground beef,1,protein
+Salmon fillet,1,protein
+NY strip steak,1,protein
+Pork chops,1,protein
+Ribs,1,protein
+Shrimp,1,protein
+Red snapper,1,protein
+Scallops,1,protein
+Pork roast,1,protein
+Brisket,1,protein
+Skirt steak,1,protein
+Ground turkey,1,protein
+Sausage,1,protein
+Eggs,1,protein
+Turkey breast,1,protein
+Chicken legs,1,protein
+Whole chicken,1,protein
+Ground bison,1,protein
+Bison steak,1,protein
+Beef roast,1,protein
+Bison roast,1,protein
+Canned tuna,1,protein
+Tuna steaks,1,protein
+Halibut,1,protein

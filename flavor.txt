@@ -1,0 +1,26 @@
+Curry powder,1,flavor
+Cinnamon,1,flavor
+Ginger,1,flavor
+Garlic,1,flavor
+Lime,1,flavor
+Lemon,1,flavor
+Cilantro,1,flavor
+Basil,1,flavor
+Salsa,1,flavor
+Pecans,1,flavor
+Slivered almonds,1,flavor
+Cacao nibs,1,flavor
+Bacon,1,flavor
+Chicken broth,1,flavor
+Beef broth,1,flavor
+Grill seasoning,1,flavor
+Rosemary,1,flavor
+Thyme,1,flavor
+Celery seed,1,flavor
+Jalepenos,1,flavor
+Cumin,1,flavor
+Avocado,1,flavor
+Sage,1,flavor
+Mint,1,flavor
+Paprika,1,flavor
+Balsamic vinegar,1,flavor

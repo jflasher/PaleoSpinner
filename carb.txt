@@ -1,0 +1,29 @@
+Onions,1,carbs
+Bell peppers,1,carbs
+Carrots,1,carbs
+Butternut squash,1,carbs
+Spaghetti squash,1,carbs
+Tomatoes,1,carbs
+Green onions,1,carbs
+Sweet potatoes,1,carbs
+Broccoli,1,carbs
+Swiss chard,1,carbs
+Kale,1,carbs
+Spinach,1,carbs
+Cucumber,1,carbs
+Parsnips,1,carbs
+Romaine lettuce,1,carbs
+Leaf lettuce,1,carbs
+Butter lettuce,1,carbs
+Leeks,1,carbs
+Apple,1,carbs
+Orange,1,carbs
+Cherries,1,carbs
+Jicama,1,carbs
+Celery,1,carbs
+Strawberries,1,carbs
+Raspberries,1,carbs
+Blueberries,1,carbs
+Zucchini,1,carbs
+Mango,1,carbs
+Green beans,1,carbs
