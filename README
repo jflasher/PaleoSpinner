@@ -1,0 +1,19 @@
+Copyright (c) 2009 Ars Sollertia
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+This is the source code for the PaleoSpinner Xcode project. This was one of the first apps I ever wrote and I haven't looked at it in a long time so I have no idea what state it's in. It should run fine as I've never gotten any crash reports, but that doesn't mean it's good code!
+
+The app was designed specifically for a friend and did exactly what it was supposed to, however it received very poor reviews on the App Store. Since it's gone to being a free app, I figured I'd post the code here for anyone to look at.
+
+Remember, this was one of the first apps I ever did and I can almost guarantee you shouldn't do things the way I did them in here! 
+
+Enjoy!
+
+You can find the app at http://itunes.apple.com/us/app/paleo-spinner/id398013084?mt=8.
